@@ -1,12 +1,13 @@
-Make sure python3 is installed
-Open terminal and run python3 main.py to start the program
+* Make sure python3 is installed.
+* Open terminal in folder contain program file. 
+* Run python3 main.py to start the program.
 
-Option 1: vanilla scan  to discover network hosts
+Option 1: vanilla scan to discover network hosts
 Enter base IP address.
 Enter host range.
 Program will load and show discovered host by sending TCP request, and ping host within range.
 
 Option 2: Sweep scan to discover open port
-Enter IP address of Scanned hosts.
+Enter IP address of target hosts.
 Enter port range.
-Program will load and show discovered open port.
+Program will load and show discovered open port on target host.
